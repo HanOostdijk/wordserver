@@ -21,5 +21,13 @@ Suggestion for changing or expanding this class:
 A way to add functionality to this class is by using the macro recorder facility in Microsoft Word. By editing the macro (e.g. replacing a sequence of operations with a loop) a VBA program with the required functionality is created. It is then relatively easy to convert this program (manually) to a MATLAB function. The functions that are already available in the **wordserver** class can serve as examples. Information about the Microsoft Word object model can be found e.g. in   
 *   [*Object model (Word VBA reference)*](https://msdn.microsoft.com/en-us/library/office/ff837519.aspx)  
 *   [*Word Enumerated Constants*](https://msdn.microsoft.com/en-us/library/office/aa211923(v=office.11).aspx)  
+
+The **wordserver.m** file contains a listing of the available functions/methods and their arguments. 
+Most functions have default argument and these arguments can be overwritten in three ways:  
+* with a structure optionally followed by overwriting name-value pairs
+* with a cell array optionally followed by overwriting name-value pairs
+* with name-value pairs only
     
 This repository also contains an example **wordserver_example.m** that shows how to insert a figure and a table with the corresponding references. 
+The resulting document example.docx is also included in the repository.
+The function set_visible is used with each of the three argument methods.
