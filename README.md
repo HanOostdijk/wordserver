@@ -2,7 +2,7 @@
 
 **A MATLAB activex class to access Microsoft Word documents**
 
-It is an extension of *wordreport* by Laurent Vaylet.
+It is an extension of [*wordreport*](https://nl.mathworks.com/matlabcentral/fileexchange/17953-wordreport) by Laurent Vaylet.
 
 Main changes:   
 * converted code to a class
